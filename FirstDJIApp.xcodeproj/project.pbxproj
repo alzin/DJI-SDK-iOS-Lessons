@@ -13,6 +13,7 @@
 		DDBFE5A027A50DE700FC04B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDBFE59E27A50DE700FC04B6 /* Main.storyboard */; };
 		DDBFE5A227A50DE900FC04B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDBFE5A127A50DE900FC04B6 /* Assets.xcassets */; };
 		DDBFE5A527A50DE900FC04B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDBFE5A327A50DE900FC04B6 /* LaunchScreen.storyboard */; };
+		DDDD01B027AD57BD00F0F4D4 /* ProductCommunicationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDD01AF27AD57BD00F0F4D4 /* ProductCommunicationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		DDBFE5A127A50DE900FC04B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDBFE5A427A50DE900FC04B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DDBFE5A627A50DE900FC04B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDDD01AF27AD57BD00F0F4D4 /* ProductCommunicationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCommunicationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,11 +39,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D2164E44B0B5D93F4EE18E32 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DDBFE58C27A50DE700FC04B6 = {
 			isa = PBXGroup;
 			children = (
 				DDBFE59727A50DE700FC04B6 /* FirstDJIApp */,
 				DDBFE59627A50DE700FC04B6 /* Products */,
+				D2164E44B0B5D93F4EE18E32 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,6 +73,7 @@
 				DDBFE5A127A50DE900FC04B6 /* Assets.xcassets */,
 				DDBFE5A327A50DE900FC04B6 /* LaunchScreen.storyboard */,
 				DDBFE5A627A50DE900FC04B6 /* Info.plist */,
+				DDDD01AF27AD57BD00F0F4D4 /* ProductCommunicationManager.swift */,
 			);
 			path = FirstDJIApp;
 			sourceTree = "<group>";
@@ -140,6 +151,7 @@
 			files = (
 				DDBFE59D27A50DE700FC04B6 /* ViewController.swift in Sources */,
 				DDBFE59927A50DE700FC04B6 /* AppDelegate.swift in Sources */,
+				DDDD01B027AD57BD00F0F4D4 /* ProductCommunicationManager.swift in Sources */,
 				DDBFE59B27A50DE700FC04B6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

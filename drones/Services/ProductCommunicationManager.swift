@@ -1,8 +1,8 @@
 //
 //  ProductCommunicationManager.swift
-//  FirstDJIApp
+//  drones
 //
-//  Created by Ghaith on 2022/02/04.
+//  Created by Ghaith on 2022/02/21.
 //
 
 import DJISDK
@@ -17,15 +17,14 @@ class ProductCommunicationManager: NSObject, DJISDKManagerDelegate {
             let path = Bundle.main.path(forResource: "Info", ofType: "plist"),
             let dict = NSDictionary(contentsOfFile: path) as? Dictionary<String, AnyObject>,
             let appKey = dict["DJISDKAppKey"] as? String,
-            appKey == "c0c50740ae6e65a544bd95cc"
+            appKey == "839137884bfe4974e4490b40"
         else {
-            print("Please add DJI App Key in Info.plist after registering as a developer")
+            print("\n<<<ERROR: Please add DJI App Key in Info.plist after registering as a developer>>>\n")
             return
         }
-        print("Registering product with registeration ID: \(appKey)")
+        print("Regoistering Product with registeration ID: \(appKey)")
         
         DJISDKManager.registerApp(with: self)
-        
     }
     
     func appRegisteredWithError(_ error: Error?) {
@@ -42,13 +41,11 @@ class ProductCommunicationManager: NSObject, DJISDKManagerDelegate {
         }
     }
     
-    func didUpdateDatabaseDownloadProgress(_ progress: Progress) {}
-    
     func productConnected(_ product: DJIBaseProduct?) {
-        if product != nil, let model = product?.model {
-            print("Connection to model \(model) has succeded!")
+        if product != nil, let model=product?.model {
+            print("Connection to model \(model) has succeeded!")
         }
     }
     
-    
+    func didUpdateDatabaseDownloadProgress(_ progress: Progress) {}
 }

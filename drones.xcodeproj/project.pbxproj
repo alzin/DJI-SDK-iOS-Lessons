@@ -7,29 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DDBFE59927A50DE700FC04B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBFE59827A50DE700FC04B6 /* AppDelegate.swift */; };
-		DDBFE59B27A50DE700FC04B6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBFE59A27A50DE700FC04B6 /* SceneDelegate.swift */; };
-		DDBFE59D27A50DE700FC04B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBFE59C27A50DE700FC04B6 /* ViewController.swift */; };
-		DDBFE5A027A50DE700FC04B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDBFE59E27A50DE700FC04B6 /* Main.storyboard */; };
-		DDBFE5A227A50DE900FC04B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDBFE5A127A50DE900FC04B6 /* Assets.xcassets */; };
-		DDBFE5A527A50DE900FC04B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDBFE5A327A50DE900FC04B6 /* LaunchScreen.storyboard */; };
-		DDDD01B027AD57BD00F0F4D4 /* ProductCommunicationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDD01AF27AD57BD00F0F4D4 /* ProductCommunicationManager.swift */; };
+		DD66776427C3BE7900F52857 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD66776327C3BE7900F52857 /* AppDelegate.swift */; };
+		DD66776627C3BE7900F52857 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD66776527C3BE7900F52857 /* SceneDelegate.swift */; };
+		DD66776827C3BE7900F52857 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD66776727C3BE7900F52857 /* ViewController.swift */; };
+		DD66776B27C3BE7900F52857 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD66776927C3BE7900F52857 /* Main.storyboard */; };
+		DD66776D27C3BE7B00F52857 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD66776C27C3BE7B00F52857 /* Assets.xcassets */; };
+		DD66777027C3BE7B00F52857 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD66776E27C3BE7B00F52857 /* LaunchScreen.storyboard */; };
+		DD66777827C3BEBE00F52857 /* ProductCommunicationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD66777727C3BEBE00F52857 /* ProductCommunicationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DDBFE59527A50DE700FC04B6 /* FirstDJIApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstDJIApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DDBFE59827A50DE700FC04B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DDBFE59A27A50DE700FC04B6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DDBFE59C27A50DE700FC04B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DDBFE59F27A50DE700FC04B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DDBFE5A127A50DE900FC04B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DDBFE5A427A50DE900FC04B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DDBFE5A627A50DE900FC04B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DDDD01AF27AD57BD00F0F4D4 /* ProductCommunicationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCommunicationManager.swift; sourceTree = "<group>"; };
+		DD66776027C3BE7900F52857 /* drones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = drones.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD66776327C3BE7900F52857 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD66776527C3BE7900F52857 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DD66776727C3BE7900F52857 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD66776A27C3BE7900F52857 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD66776C27C3BE7B00F52857 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD66776F27C3BE7B00F52857 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD66777127C3BE7B00F52857 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD66777727C3BEBE00F52857 /* ProductCommunicationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCommunicationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DDBFE59227A50DE700FC04B6 /* Frameworks */ = {
+		DD66775D27C3BE7900F52857 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,81 +39,89 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D2164E44B0B5D93F4EE18E32 /* Pods */ = {
+		DD49F292A9637A4DFCFA558F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		DDBFE58C27A50DE700FC04B6 = {
+		DD66775727C3BE7900F52857 = {
 			isa = PBXGroup;
 			children = (
-				DDBFE59727A50DE700FC04B6 /* FirstDJIApp */,
-				DDBFE59627A50DE700FC04B6 /* Products */,
-				D2164E44B0B5D93F4EE18E32 /* Pods */,
+				DD66776227C3BE7900F52857 /* drones */,
+				DD66776127C3BE7900F52857 /* Products */,
+				DD49F292A9637A4DFCFA558F /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
-		DDBFE59627A50DE700FC04B6 /* Products */ = {
+		DD66776127C3BE7900F52857 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DDBFE59527A50DE700FC04B6 /* FirstDJIApp.app */,
+				DD66776027C3BE7900F52857 /* drones.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DDBFE59727A50DE700FC04B6 /* FirstDJIApp */ = {
+		DD66776227C3BE7900F52857 /* drones */ = {
 			isa = PBXGroup;
 			children = (
-				DDBFE59827A50DE700FC04B6 /* AppDelegate.swift */,
-				DDBFE59A27A50DE700FC04B6 /* SceneDelegate.swift */,
-				DDBFE59C27A50DE700FC04B6 /* ViewController.swift */,
-				DDBFE59E27A50DE700FC04B6 /* Main.storyboard */,
-				DDBFE5A127A50DE900FC04B6 /* Assets.xcassets */,
-				DDBFE5A327A50DE900FC04B6 /* LaunchScreen.storyboard */,
-				DDBFE5A627A50DE900FC04B6 /* Info.plist */,
-				DDDD01AF27AD57BD00F0F4D4 /* ProductCommunicationManager.swift */,
+				DD66776327C3BE7900F52857 /* AppDelegate.swift */,
+				DD66776527C3BE7900F52857 /* SceneDelegate.swift */,
+				DD66776727C3BE7900F52857 /* ViewController.swift */,
+				DD66776927C3BE7900F52857 /* Main.storyboard */,
+				DD66776C27C3BE7B00F52857 /* Assets.xcassets */,
+				DD66776E27C3BE7B00F52857 /* LaunchScreen.storyboard */,
+				DD66777127C3BE7B00F52857 /* Info.plist */,
+				DD66777927C3BECB00F52857 /* Services */,
 			);
-			path = FirstDJIApp;
+			path = drones;
+			sourceTree = "<group>";
+		};
+		DD66777927C3BECB00F52857 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				DD66777727C3BEBE00F52857 /* ProductCommunicationManager.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DDBFE59427A50DE700FC04B6 /* FirstDJIApp */ = {
+		DD66775F27C3BE7900F52857 /* drones */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DDBFE5A927A50DE900FC04B6 /* Build configuration list for PBXNativeTarget "FirstDJIApp" */;
+			buildConfigurationList = DD66777427C3BE7B00F52857 /* Build configuration list for PBXNativeTarget "drones" */;
 			buildPhases = (
-				DDBFE59127A50DE700FC04B6 /* Sources */,
-				DDBFE59227A50DE700FC04B6 /* Frameworks */,
-				DDBFE59327A50DE700FC04B6 /* Resources */,
+				DD66775C27C3BE7900F52857 /* Sources */,
+				DD66775D27C3BE7900F52857 /* Frameworks */,
+				DD66775E27C3BE7900F52857 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = FirstDJIApp;
-			productName = FirstDJIApp;
-			productReference = DDBFE59527A50DE700FC04B6 /* FirstDJIApp.app */;
+			name = drones;
+			productName = drones;
+			productReference = DD66776027C3BE7900F52857 /* drones.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DDBFE58D27A50DE700FC04B6 /* Project object */ = {
+		DD66775827C3BE7900F52857 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					DDBFE59427A50DE700FC04B6 = {
+					DD66775F27C3BE7900F52857 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
 			};
-			buildConfigurationList = DDBFE59027A50DE700FC04B6 /* Build configuration list for PBXProject "FirstDJIApp" */;
+			buildConfigurationList = DD66775B27C3BE7900F52857 /* Build configuration list for PBXProject "drones" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -121,56 +129,56 @@
 				en,
 				Base,
 			);
-			mainGroup = DDBFE58C27A50DE700FC04B6;
-			productRefGroup = DDBFE59627A50DE700FC04B6 /* Products */;
+			mainGroup = DD66775727C3BE7900F52857;
+			productRefGroup = DD66776127C3BE7900F52857 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DDBFE59427A50DE700FC04B6 /* FirstDJIApp */,
+				DD66775F27C3BE7900F52857 /* drones */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DDBFE59327A50DE700FC04B6 /* Resources */ = {
+		DD66775E27C3BE7900F52857 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDBFE5A527A50DE900FC04B6 /* LaunchScreen.storyboard in Resources */,
-				DDBFE5A227A50DE900FC04B6 /* Assets.xcassets in Resources */,
-				DDBFE5A027A50DE700FC04B6 /* Main.storyboard in Resources */,
+				DD66777027C3BE7B00F52857 /* LaunchScreen.storyboard in Resources */,
+				DD66776D27C3BE7B00F52857 /* Assets.xcassets in Resources */,
+				DD66776B27C3BE7900F52857 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DDBFE59127A50DE700FC04B6 /* Sources */ = {
+		DD66775C27C3BE7900F52857 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDBFE59D27A50DE700FC04B6 /* ViewController.swift in Sources */,
-				DDBFE59927A50DE700FC04B6 /* AppDelegate.swift in Sources */,
-				DDDD01B027AD57BD00F0F4D4 /* ProductCommunicationManager.swift in Sources */,
-				DDBFE59B27A50DE700FC04B6 /* SceneDelegate.swift in Sources */,
+				DD66776827C3BE7900F52857 /* ViewController.swift in Sources */,
+				DD66776427C3BE7900F52857 /* AppDelegate.swift in Sources */,
+				DD66777827C3BEBE00F52857 /* ProductCommunicationManager.swift in Sources */,
+				DD66776627C3BE7900F52857 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DDBFE59E27A50DE700FC04B6 /* Main.storyboard */ = {
+		DD66776927C3BE7900F52857 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DDBFE59F27A50DE700FC04B6 /* Base */,
+				DD66776A27C3BE7900F52857 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		DDBFE5A327A50DE900FC04B6 /* LaunchScreen.storyboard */ = {
+		DD66776E27C3BE7B00F52857 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DDBFE5A427A50DE900FC04B6 /* Base */,
+				DD66776F27C3BE7B00F52857 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -178,7 +186,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		DDBFE5A727A50DE900FC04B6 /* Debug */ = {
+		DD66777227C3BE7B00F52857 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -239,7 +247,7 @@
 			};
 			name = Debug;
 		};
-		DDBFE5A827A50DE900FC04B6 /* Release */ = {
+		DD66777327C3BE7B00F52857 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -294,7 +302,7 @@
 			};
 			name = Release;
 		};
-		DDBFE5AA27A50DE900FC04B6 /* Debug */ = {
+		DD66777527C3BE7B00F52857 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -303,7 +311,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DD3D7P4VWQ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FirstDJIApp/Info.plist;
+				INFOPLIST_FILE = drones/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -314,7 +322,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Damascus.FirstDJIApp;
+				PRODUCT_BUNDLE_IDENTIFIER = Damascus.drones;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -322,7 +330,7 @@
 			};
 			name = Debug;
 		};
-		DDBFE5AB27A50DE900FC04B6 /* Release */ = {
+		DD66777627C3BE7B00F52857 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -331,7 +339,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DD3D7P4VWQ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FirstDJIApp/Info.plist;
+				INFOPLIST_FILE = drones/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -342,7 +350,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Damascus.FirstDJIApp;
+				PRODUCT_BUNDLE_IDENTIFIER = Damascus.drones;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -353,25 +361,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DDBFE59027A50DE700FC04B6 /* Build configuration list for PBXProject "FirstDJIApp" */ = {
+		DD66775B27C3BE7900F52857 /* Build configuration list for PBXProject "drones" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DDBFE5A727A50DE900FC04B6 /* Debug */,
-				DDBFE5A827A50DE900FC04B6 /* Release */,
+				DD66777227C3BE7B00F52857 /* Debug */,
+				DD66777327C3BE7B00F52857 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DDBFE5A927A50DE900FC04B6 /* Build configuration list for PBXNativeTarget "FirstDJIApp" */ = {
+		DD66777427C3BE7B00F52857 /* Build configuration list for PBXNativeTarget "drones" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DDBFE5AA27A50DE900FC04B6 /* Debug */,
-				DDBFE5AB27A50DE900FC04B6 /* Release */,
+				DD66777527C3BE7B00F52857 /* Debug */,
+				DD66777627C3BE7B00F52857 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DDBFE58D27A50DE700FC04B6 /* Project object */;
+	rootObject = DD66775827C3BE7900F52857 /* Project object */;
 }

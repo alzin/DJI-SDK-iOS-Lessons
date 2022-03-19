@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>DJISDKAppKey</key>
-	<string>c0c50740ae6e65a544bd95cc</string>
+	<string>839137884bfe4974e4490b40</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
@@ -23,5 +23,14 @@
 			</array>
 		</dict>
 	</dict>
+	<key>UISupportedExternalAccessoryProtocols</key>
+	<array>
+		<string>com.dji.common</string>
+		<string>com.dji.video</string>
+		<string>com.dji.protocol</string>
+		<string>com.dji.logiclink</string>
+	</array>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>DJI SDK needs to the usage of Bluetooth</string>
 </dict>
 </plist>
